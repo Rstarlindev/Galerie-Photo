@@ -1,0 +1,67 @@
+html , body {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url("background.jpg") no-repeat center fixed; 
+    background-size: cover ;
+}
+
+
+nav {
+   background-color:#f1f1f1;
+   overflow: hidden;
+}
+
+nav ul {
+    color: black;
+    float: left;
+    margin: 0;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+.section_title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+section {
+    display: block;
+    position: relative;
+}
+
+footer{
+
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+    
+    }
+/*Fichier inscription */
+
+.center_texte{
+display: block;
+position: relative;
+font-size:16px;
+text-transform:uppercase;
+}
+
+.inscription {
+display: block;
+position: relative;
+}
+
+
+/*fichier profil*/
+
+.ajout_photo {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
